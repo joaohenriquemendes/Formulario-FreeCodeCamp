@@ -1,0 +1,128 @@
+body{
+    height: 100%;
+    background-color: rgb(12, 12, 12);
+}
+.container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin-top:0;
+    color: cyan;
+}
+
+h1{
+    font-size: 36px;
+}
+
+p{
+    padding-left: 20px;
+
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(21, 33, 58);
+    width: 50%;
+    max-width: 800px;
+    min-width: 400px;
+    height: 900px;
+    min-height: 200px;
+    border-radius: 10px;
+}
+
+.content{
+    width: 100%;
+    text-align: left;
+    
+}
+
+#cargo{
+    padding-left: 17px;
+}
+
+#dropdown{
+    border-radius: 6px;
+    background-color: transparent;
+    border-color:aqua;
+    color: cyan;
+}
+
+#text-error{
+    padding-top: 20px;
+}
+
+input{
+    background-color:rgb(35, 58, 73);
+    color: aquamarine;
+    border: 1px solid; 
+}
+
+input:hover{
+    border-bottom: 1px solid white;
+}
+
+label,input{
+    display: block;
+    margin: 0.5em 20px;
+    border-radius: 6px;
+}
+
+input[type="text"],input[type="email"],input[type="number"]{
+    width: 90%;
+    
+
+}
+
+input[name="option"]{
+    display: inline;
+    vertical-align: middle;
+    
+}
+
+input[type="checkbox"]{
+    display: unset;
+    vertical-align: middle;
+}
+
+#text-area{
+    display: flex;
+    justify-content: center;
+}
+
+#info-adicional{
+    display: flex;
+    border-color: aquamarine;
+    background-color: transparent;
+    border-radius: 6px;
+    resize: vertical;
+    max-width: 90%;
+    min-width: 90%;
+    
+}
+
+#btn{
+    display: flex;
+    background-color: rgb(52, 98, 124);
+    border-radius: 6px;
+    border-color: aqua;
+    color: cyan;
+    margin: 1.5em auto;
+    height: 30px;
+    width: 100px;
+    margin-top: 70px;
+    padding-top: 5px;
+    justify-content: center;
+}
+

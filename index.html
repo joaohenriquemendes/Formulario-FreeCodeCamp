@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conteudo criado para Resolução de uma atividade no site FreeCodeCamp">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+</head>
+<body>
+    
+    <div class="container">
+        <form action="" id="survey-form">
+        
+            <header class="cabecalho">
+                
+                    <h1>Formulário FreeCodeCamp</h1>
+                
+                <p id="description">
+                    Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma
+                </p>
+            </header>
+        
+        
+        
+            <div class="content">
+                <label for="name" id="name-label">Nome</label>
+                <input
+        
+                 type="text"
+        
+                 id="name"
+        
+                 placeholder="Digite seu nome..."
+        
+                 required>
+            </div>
+            <div class="content">
+                <label for="email" id="email-label">Email</label>
+                <input
+                 type="email"
+                 name="email"
+        
+                 id="email"
+                 placeholder="Digite seu email..."
+        
+                 required>
+            </div>
+            <div class="content">
+                <label for="number" id="number-label">Idade(opcional)</label>
+                <input
+        
+                 type="number"
+                 placeholder="qual sua idade?"
+        
+                 min="12"
+        
+                 max="90"
+        
+                 id="number">
+            </div>
+            <div class="content">
+                <label for="dropdown">Qual opção melhor descreve sua função atual?</label>
+                <div id="cargo">
+                    <select name="Cargo" id="dropdown">
+                        <option value="" selected disabled>Selecione a função atual</option>
+                        <option value="1">Estagiário</option>
+                        <option value="2">CLT</option>
+                        <option value="3">Autônomo</option>
+                        <option value="4">Outro</option>
+                    </select>
+                </div>
+            </div>
+            <div class="content">
+                <p id="text-error">Está disposto a trabalhar com os melhores profissionais do país?</p>
+                <label for="sim">
+                    <input
+                     type="radio"
+        
+                     name="option"
+        
+                     id="sim"
+        
+                     value="sim">
+                    Sim
+                </label>
+                <label for="nao">
+                    <input
+        
+                     type="radio"
+        
+                     name="option"
+        
+                     id="nao"
+        
+                     value="nao">
+                     Não
+                </label>
+            </div>
+            <div class="content">
+                <p>Quais suas competências?</p>
+                    <label for="boa-comunicação">
+                        <input
+                         type="checkbox"
+        
+                         name="Boa-comunicação"
+        
+                         id="Boa-comunicação"
+        
+                         value="boa-comunicação">
+                         Boa comunicação
+                    </label>
+                    <label for="trabalho-em-equipe">
+                        <input
+                         type="checkbox"
+        
+                         name="trabalho-em-equipe"
+        
+                         id="trabalho-em-equipe"
+        
+                         value="trabalho-em-equipe">
+                         Trabalho em equipe
+                    </label>
+                    <label for="liderança">
+                        <input
+                         type="checkbox"
+        
+                         name="liderança"
+        
+                         id="liderança"
+        
+                         value="liderança">
+                         Liderança
+                    </label>
+                    <label for="flexibilidade">
+                        <input
+                         type="checkbox"
+        
+                         name="flexibilidade"
+        
+                         id="flexibilidade"
+        
+                         value="flexibilidade">
+                         Flexibilidade
+                    </label>
+        
+            </div>
+            <div class="content">
+                <label for="info-adicional">Informações adicionais:</label>
+                <div id="text-area"><textarea name="info" id="info-adicional" cols="70" rows="2"></textarea></div>
+            </div>
+            <div>
+                <button type="submit" id="btn">Enviar</button>
+            </div>
+        </form>
+        
+                                    
+    </div>
+</body>
+</html>
