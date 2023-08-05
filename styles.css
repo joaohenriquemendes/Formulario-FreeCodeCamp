@@ -109,7 +109,7 @@ input[type="checkbox"]{
     resize: vertical;
     max-width: 90%;
     min-width: 90%;
-    
+    color: aqua;
 }
 
 #btn{
